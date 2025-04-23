@@ -14,7 +14,7 @@ try:
     print(f"[+]Connecting to {ip}:{port}...")
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
     s.connect((ip, port))
-    print(f"[+]Connected.")
+    print("[+]Connected.")
 except Exception as e:
     print(f"[-]Connection Failled {ip}:{port}...")
     print(e)
